@@ -1,0 +1,28 @@
+algoritmo "Primeiro Programa"
+
+var
+  nome: caractere
+  idade: inteiro
+  altura: real
+  aprovado: logico
+
+inicio
+
+  escreval("Digite seu nome: ")
+  leia(nome)
+  escreval("Olá, ", nome, "!")
+  
+  escreval("Digite sua idade: ")
+  leia(idade)
+  escreval("Sua iade é ", idade)
+
+  escreval("Digite sua altura: ")
+  leia(altura)
+  escreval("Sua altura é ", altura)
+
+  escreval("Você foi aprovado?: ")
+  leia(aprovado)
+  escreval("Aprovado: ", aprovado)
+
+
+fimalgoritmo
