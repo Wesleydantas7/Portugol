@@ -1,0 +1,13 @@
+algoritmo "VerificaChuva"
+
+var
+  chovendo: logico
+
+inicio
+  chovendo <- verdadeiro
+
+  se (chovendo = verdadeiro) entao
+    escreval("Vou levar o gurda-chuva!")
+  fimse
+
+  escreval("Saindo de casa...")
