@@ -1,0 +1,23 @@
+algoritmo "ContagemSimples"
+
+var
+  contador: inteiro
+  limitador: inteiro
+
+inicio
+
+    escreval("iniciando...")
+
+    limitador <- 2
+
+  para contador de 1 ate limitador faca
+    escreval("Repetição: ", contador)
+  fimpara
+
+  escreval("Fora do bloco da repetição: ", contador)
+  escreval("Fim")
+
+
+
+
+fimalgoritmo
