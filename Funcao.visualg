@@ -1,0 +1,16 @@
+algoritmo "Funcao"
+
+var 
+  resultado: inteiro
+
+funcao somar (a: inteiro, b: inteiro) :inteiro
+  inicio
+    retorne a + b
+fimfuncao
+
+inicio
+
+  resultado <- somar (4,7)
+  escreval("O resultado foi: ", resultado)
+
+fimalgoritmo
