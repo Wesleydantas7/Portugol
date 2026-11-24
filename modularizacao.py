@@ -1,0 +1,10 @@
+
+def caulcular_media(nota1, nota2, total_notas):
+    return (nota1 + nota2)/total_notas
+
+total_notas = 2
+nota1 = float(input("Digite o valor da primeira nota:"))
+nota2 = float(input("Digite o valor da segunda nota:"))
+
+media = caulcular_media(nota1, nota2, total_notas)
+print(f"Média:{media:.2f}")
